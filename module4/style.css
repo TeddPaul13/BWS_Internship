@@ -1,0 +1,61 @@
+button{
+    background-color: aliceblue;
+    color: black;
+    margin-left: 50px;
+    padding: 10px;
+    border: 0;
+    font-size: 20px;
+}
+#hero{
+    background-color: rgba(247, 244, 244, 0.5);
+    height: 500px;  
+    
+}
+.bg-image{
+    background-image: url(backimage.jpg);
+    background-size: cover;
+}
+
+h1{
+    padding-top: 100px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+h2{
+    margin-left: 50px;
+    font-size: 30px;
+}
+img{
+    height: 100px;
+    margin-left: 50px;
+}
+td{
+    padding-left: 100px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#navbar{
+    display: table;
+    width: 100%;
+    text-align: center;
+    
+}
+#navbar div {
+    display: table-cell;
+    vertical-align: middle; /* Aligns items in the center */
+    
+}
+#navbar div:first-child {
+    width: 1%; /* Ensures the logo stays at its natural width */            
+}
+#menu-items table {
+    display: inline-table;
+    border-collapse: collapse;
+    margin-right: 50px;
+}
+#menu-items{
+    text-align: center;
+}
+#logo{
+    margin-left: 50px;
+}
